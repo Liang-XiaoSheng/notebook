@@ -362,20 +362,20 @@ ARP缓存表有效期（缺省180s）
 
 ### 命令行错误信息
 
-```
+```shell
 [Huawei] sysname 
                   ^
-Error:Incomplete command found at ‘^’ position.	#箭头所指地方提示命令不完整，需要进一步补齐
+Error:Incomplete command found at ‘^’ position. # 箭头所指地方提示命令不完整，需要进一步补齐
 
 [Huawei] router if 1.1.1.1
                  ^
-Error: Unrecognized command found at ‘^’ position.       #箭头所指地方提示该命令不能识别，需要确认命令正确性
+Error: Unrecognized command found at ‘^’ position. # 箭头所指地方提示该命令不能识别，需要确认命令正确性
 
 [Huawei] a
          ^
-Error:Ambiguous command found at ‘^’ position.	#箭头所指的命令不明确，有多个a开头的关键字
+Error:Ambiguous command found at ‘^’ position. # 箭头所指的命令不明确，有多个a开头的关键字
 
-[Huawei-GigabitEthernet0/0/0]ospf cost 800000           #箭头所指的参数值越界
+[Huawei-GigabitEthernet0/0/0]ospf cost 800000 # 箭头所指的参数值越界
                                          ^
 Error: Wrong parameter found at '^' position.
 
@@ -383,7 +383,7 @@ Error: Wrong parameter found at '^' position.
 
 ### 文件系统操作命令
 
-```
+```shell
 pwd 命令用来显示当前工作目录
 dir [ /all ] [ filename | directory ]命令用来查看当前目录下的文件信息
 more [ /binary ] filename [ offset ] [ all ]命令用来查看文本文件的具体内容
@@ -660,7 +660,7 @@ VLAN ID的分配在有效范围内，可以随意分配和选取，但是为了�
 
 #### VLAN配置命令
 
-```
+```shell
 display vlan 查看VLAN的相关信息
 
 vlan <vlan-id> 创建VLAN
